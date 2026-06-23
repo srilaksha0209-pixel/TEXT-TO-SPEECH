@@ -1,0 +1,50 @@
+# 🎙️ VoiceCraft — Text to Speech
+
+A clean, modern text-to-speech web app built using the browser's native **Web Speech API**. Type any text, pick a voice, adjust speed/pitch/volume, and listen to it spoken aloud — no backend, no installs, runs entirely in the browser.
+
+🔗 **Live demo:** _add your GitHub Pages link here once it's live_
+
+## ✨ Features
+
+- 🔊 Convert typed text into speech instantly
+- 🎤 Choose from all voices available on your system/browser
+- ⚙️ Adjustable **speed**, **pitch**, and **volume** with live sliders
+- ⏸️ Pause, resume, and stop controls
+- 🔢 Live character counter (3000 character limit)
+- 📱 Fully responsive — works on mobile and desktop
+- 🎨 Bright, glassmorphism-style UI with smooth animations
+
+## 🛠️ Built With
+
+- **HTML5** — semantic structure
+- **CSS3** — gradients, glassmorphism, responsive layout
+- **JavaScript (Vanilla)** — Web Speech API (`SpeechSynthesisUtterance`)
+- **Google Fonts** — Poppins & Inter
+
+## 🚀 How to Run Locally
+
+1. Clone or download this repository
+2. Make sure `index.html`, `style.css`, and `script.js` are in the same folder
+3. Open `index.html` in any modern browser (Chrome recommended)
+4. Type your text and hit **Speak**!
+
+No build tools, no dependencies, no server required.
+
+## 📂 Project Structure
+
+```
+text-to-speech/
+├── index.html      # Page structure
+├── style.css       # Styling and animations
+├── script.js       # Speech logic and interactivity
+└── README.md
+```
+
+## 📌 Notes
+
+- Voice options depend on what your browser/OS provides — Chrome generally offers the most voices.
+- This was built as a learning project to practice the Web Speech API, DOM manipulation, and UI design.
+
+## 👩‍💻 Author
+
+**Srilaksha**
